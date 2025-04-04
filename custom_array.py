@@ -136,6 +136,7 @@ class Array:
     #  * Exercise 4:
     #  *     Extend the Array class and add a new method to insert an item at a given index:
     #  *     public void insertAt(int item, int index)
+    #  RUNTIME COMPLEXITY O(n)
 
     def insert_at(self, index, item):
         if index < 0 or index > self.size:
